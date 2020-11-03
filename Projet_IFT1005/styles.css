@@ -1,0 +1,300 @@
+
+
+
+
+h7{
+
+font-size: 30px;
+color: #3D3C3A; 
+line-height: 1.3;
+}
+
+
+
+hr{
+
+color: #D8D8D8; 
+ margin-bottom: 1.3px;
+ border-bottom: 1px solid #D8D8D8; ;
+
+}
+
+.line{
+    width:100%;
+    margin-bottom: 2.5px;
+ 
+    float: left;  
+    border: none;
+    border-bottom: 1.4px solid #D8D8D8; ;
+}
+
+
+p{
+
+font-size: 18px;
+color: #444;
+word-wrap: break-word;
+font-family: "Raleway";
+}
+
+h4{
+
+color:#01A9DB;
+font-size: 15px;
+}
+
+h3{
+
+color:#01A9DB;
+font-size: 15px;
+font-family: "Domine";
+}
+img{ width:100%;
+height: 100%; }
+
+a {  
+  color: #01A9DB;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover { 
+  color: #01A9DB;
+    background-color: transparent;
+    text-decoration:underline;
+}
+
+
+.contenantFlex-1{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  height: 120px;
+  justify-content: space-between;
+  
+
+
+}
+
+.contenantFlex-1 > div, nav {
+  background-color: white;
+  font-size: 15px;
+  margin: 25px;
+  font-family: "Raleway";
+  position: relative;
+}
+
+.contenantFlex-1 > ul {list-style-type: circle; }
+ul li {display: inline; }
+
+.contenantFlex-1 a,h3{
+  color: #585858;
+  text-decoration: none;
+}
+
+.contenantFlex-1 a:hover {
+  color: #D8D8D8;
+  text-decoration: none;
+}
+
+
+
+
+.containerFlex-2 {
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    height:700px;
+}
+
+
+.contenantFlex-2 a{
+  color: #585858;
+  text-decoration: none;
+}
+
+.contenantFlex-2:hover {
+  color: #D8D8D8;
+}
+
+
+
+.centered {
+    position: relative;
+    top: -455px;
+    left:  330px;
+    text-align: center;
+
+    height: 160px;
+    width: 500px;
+    background-color:white;
+    color: #01A9DB;
+    
+}
+
+.contenantFlex-3-rows{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin:20px;
+
+
+}
+.contenantFlex-3-rows > div,aside {
+  background-color: white;
+  font-size: 15px;
+  margin: 5px;
+  align-items: center;
+  width:320px;
+}
+
+
+div.aCote{
+display: flex;
+flex-direction: column;
+background-color: white;
+align-items: left;
+margin-bottom: 10px;
+margin-left: 20px;
+line-height: 1.3;
+font-size: 16px;
+}
+
+
+div.aCote a{
+
+  text-decoration: underline;
+  color: #888  ;
+  font-family: "Domine";
+
+}
+
+div.aCote a:hover{
+
+  text-decoration: underline;
+  color: #01A9DB;
+ 
+
+}
+
+div.aCote > ul{
+
+padding-left: 0px;
+ 
+
+}
+#aside1 img{
+height:400px;
+width:400px;
+
+}
+
+.tabs{
+  margin-top: 2px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border:"black";
+}
+
+
+.boiteArticle{
+  margin-top: 40px;
+
+}
+
+
+
+.button {
+  border-radius: 12px;
+  padding: 0.6em;
+  background-color:white;
+
+}
+
+.button:hover {
+  background-color:black;
+  color: white;
+
+}
+
+.bottom{
+
+display: flex;
+flex-direction: row;
+background-color: #f6f2f2;
+
+
+}
+.bottom > div{
+  font-size: 15px;
+  margin: 25px;
+  width:25%;
+  color:black;
+  font-family: "Raleway";
+
+}
+
+.bottom a{
+  color:#3d3d3d;
+
+
+}
+
+.bottom a:hover{
+  text-decoration: underline;
+  color: #01A9DB;
+}
+
+.bottom li{
+  background-color:#e2dcdc;
+  line-height: 40px;
+  padding-top: 8px;
+  padding-bottom: : 8px;
+
+
+}
+
+
+
+
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 75px;
+width:100%;;
+color: grey;
+padding: 25px;
+
+
+}
+
+
+div.gallerie  {
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+  height: 60px;
+}
+
+div.gallerie  > img{
+  
+  height: auto;
+}
+
+div.gallerie2  {
+  border: 1px solid #ccc;
+  float: left;
+  width: 16.52%;
+  height: 150px;
+}
+
+
+div.gallerie2  > img{
+  
+  height: auto;
+}
+
